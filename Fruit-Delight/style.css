@@ -24,9 +24,15 @@
 	position: relative;
 }
 
-.logo {
-	height: 80px;
-	margin: 30px 80px;
+.logo img {
+	height: 70px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+.logo h2 {
+	margin-left: 80px;
+	margin-top: 20px;
 }
 
 .content-box {
