@@ -6,8 +6,9 @@
     <meta property="og:title" content="Fruity Deligh" />
     <meta property="og:description" content="An Eye Catching Landing Page for Fruit Selling Company" />
     <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="." />
     <meta name="author" content="[Sagyam Thapa]">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link
     rel="shortcut icon"
@@ -24,7 +25,13 @@
             <h2 >Fruity Delight</h2>
             </div>
             <div class="content-box">
-                <img src="./images/rating.png" class="rating"> 
+                <div class="rating-box">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
                 <h1>Pico de Gallo Fruit Salad</h1>
                 <p>Attractively arrange the vegetable and fruit slices on a serving platter. Sprinkle with salt and chile powder to taste. Serve with lime wedges to squeeze over all.</p>
                 <button type="button">View Ingredients <img src="./images/arrow.png"> </button>
@@ -32,30 +39,61 @@
             <div class="arrow-box" id="left-arrow">
                 <img src="./images/left-arrow.svg" >
             </div>
-            <!-- <img src="./images/left-arrow.png" class="left-arrow"> -->
         </div>
         <div class="right-col">
             <div class="navbar">
                 <div class="search-box">
                     <input type="text" placeholder="Find recipes & videos">
-                    <img src="images/search.png">
+                    <img src="images/search.svg"">
                 </div>
             <ul>
-                <li><a href="#"> <img src="./images/fill-tag.png"> Saves</a></li>
+                <li><a href="#"> <img src="./images/bookmark.svg"> Saves</a></li>
                 <li><a href="#">Sign Up</a></li>
             </ul>
         </div>
-        <div class="more-items">
-            <img src="./images/fruit1.png">
-            <img src="./images/fruit2.png">
-            <img src="./images/fruit3.png">
+        <div class="card-container">
+            <div class="product-card">
+                <img src="./images/fruit1.png">
+                <h1>Minted Fruit Salad</h1>
+                <div class="rating-box">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/fruit2.png">
+                <h1>Fruity Punch Salad</h1>
+                <div class="rating-box">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="./images/fruit3.png">
+                <h1>Creamy Fruit Salad</h1>
+                <div class="rating-box">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
         </div>
+
         <div class="arrow-box" id="right-arrow">
             <img src="./images/right-arrow.svg" >
         </div>
-        <!-- <img src="./images/right-arrow.png" class="right-arrow"> -->
     </div>
-    <img src="./images/fruits.png" alt="" class="main-img">
+    <img src="./images/fruits.png" class="main-img">
 </div>
 </body>
 </html>
