@@ -75,11 +75,29 @@
 	margin-left: 20px;
 }
 
-.left-arrow {
-	width: 65px;
+.arrow-box {
+	width: 50px;
+	height: 50px;
 	position: absolute;
-	bottom: 0;
+	bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px #777;
+}
+
+.arrow-box img {
+	width: 20px;
+	height: 20px;
+	padding: 15px;
+}
+
+#left-arrow {
+	background-color: #ff7878;
 	right: 20px;
+}
+
+#right-arrow {
+	background-color: #fff;
+	left: 20px;
 }
 
 .navbar {
