@@ -61,24 +61,26 @@ header ul li a {
 
 .content .text-box {
 	position: relative;
-	min-width: 600px;
+	max-width: 800px;
+	margin-top: -100px;
 }
 
 .content .text-box h2 {
 	color: #333;
-	font-size: 4em;
-	line-height: 1.4em;
+	font-size: 4rem;
+	line-height: 5rem;
 	font-weight: 500;
 }
 
 .content .text-box h2 span {
 	color: #017143;
-	font-size: 1.2em;
 	font-weight: 900;
 }
 
 .content .text-box p {
 	color: #333;
+	max-width: 600px;
+	padding: 1rem 0;
 }
 
 .content .text-box a {
@@ -96,6 +98,74 @@ header ul li a {
 .content .img-box {
 	width: 600px;
 	display: flex;
+	justify-content: flex-start;
+	padding-right: 50px;
+	margin-top: 50px;
+}
+
+.content .img-box img {
+	transform: scale(1);
+}
+
+.thumb {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%);
+	display: flex;
+}
+
+.thumb li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.thumb li:hover {
+	transform: translateY(-25px);
+}
+
+.thumb li img {
+	max-width: 60px;
+}
+
+.social {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: baseline;
+	align-items: center;
+}
+
+.social li {
+	list-style: none;
+}
+
+.social li a {
+	display: inline-block;
+	margin: 5px 0;
+}
+
+.social li a img {
+	width: 35xp;
+	height: 35px;
+	filter: invert(1);
+}
+
+.circle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #017143;
+	clip-path: circle(800px at right 900px);
 }
 
 /**Change Slected Text Color*/
@@ -107,5 +177,20 @@ header ul li a {
 
 ::selection {
 	color: white;
+	background: #017143;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
 	background: #017143;
 }
