@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logo {
+	position: relative;
+	max-width: 80px;
+}
+
+header ul {
+	position: relative;
+	display: flex;
+}
+
+header ul li {
+	list-style: none;
+}
+
+header ul li a {
+	display: inline-block;
+	color: #333;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration: none;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content .text-box {
+	position: relative;
+	min-width: 600px;
+}
+
+.content .text-box h2 {
+	color: #333;
+	font-size: 4em;
+	line-height: 1.4em;
+	font-weight: 500;
+}
+
+.content .text-box h2 span {
+	color: #017143;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+.content .text-box p {
+	color: #333;
+}
+
+.content .text-box a {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 20px;
+	background-color: #017143;
+	color: #fff;
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.content .img-box {
+	width: 600px;
+	display: flex;
+}
+
+/**Change Slected Text Color*/
+::-moz-selection {
+	/* Code for Firefox */
+	color: white;
+	background: #017143;
+}
+
+::selection {
+	color: white;
+	background: #017143;
+}

@@ -211,3 +211,15 @@
 	left: 50%;
 	transform: translate(-45%, -50%);
 }
+
+/**Change Slected Text Color*/
+::-moz-selection {
+	/* Code for Firefox */
+	color: white;
+	background: #ff7878;
+}
+
+::selection {
+	color: white;
+	background: #ff7878;
+}
