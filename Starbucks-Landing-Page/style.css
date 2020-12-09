@@ -104,13 +104,13 @@ header ul li a {
 }
 
 .content .img-box img {
-	transform: scale(1);
+	transform: scale(0.85);
 }
 
 .thumb {
 	position: absolute;
 	left: 50%;
-	bottom: 0;
+	bottom: 100px;
 	transform: translate(-50%);
 	display: flex;
 }
@@ -124,7 +124,7 @@ header ul li a {
 }
 
 .thumb li:hover {
-	transform: translateY(-25px);
+	transform: translateY(-25px) scale(1.1);
 }
 
 .thumb li img {

@@ -4,4 +4,5 @@ function changeImgAndColor(imageName, color){
     // button.style.background = color;
     circle.style.background = color;
     document.querySelector('.hero-img').src = imageName 
+
 }
