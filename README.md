@@ -9,4 +9,4 @@ width=48>
 <img src='https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg' 
 width=36>
 
-![Screenshot](https://raw.githubusercontent.com/Sagyam/Eye-Catching-Landing-Pages/main/Fruit-Delight/images/screenshot.png)
+![Fruity Delight](https://raw.githubusercontent.com/Sagyam/Eye-Catching-Landing-Pages/main/Fruit-Delight/images/screenshot.png)
