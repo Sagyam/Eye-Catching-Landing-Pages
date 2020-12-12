@@ -1,4 +1,8 @@
 # Eye-Catching-Landing-Pages
+[![GitHub license](https://img.shields.io/github/license/Sagyam/Eye-Catching-Landing-Pages?style=for-the-badge)](https://github.com/Sagyam/Eye-Catching-Landing-Pages/blob/main/LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/Sagyam/Eye-Catching-Landing-Pages?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/Sagyam/Eye-Catching-Landing-Pages?style=for-the-badge)
+![GitHub search hit counter](https://img.shields.io/github/search/Sagyam/Eye-Catching-Landing-Pages/landing?style=for-the-badge)
 
 My collection of Eye Catching Landing Pages.
 
